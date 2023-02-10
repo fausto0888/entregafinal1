@@ -1,0 +1,20 @@
+.boton-nosotros{
+    background-color: white; 
+    border:solid 1px rgb(255, 171, 140)!important ;
+    &:hover{
+        background-color: rgb(255, 171, 140)!important; 
+        color: aliceblue;
+        
+    }
+}
+.nosotros-section{
+    background-color:  #3a6173 ;
+    padding: 40px;
+    div{
+        background-color: #f0f0f4;
+        border-radius: 10px;
+        border: solid 1px rgba(0, 213, 255, 0.709)  ;
+        
+    }
+}
+

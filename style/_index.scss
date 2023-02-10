@@ -1,0 +1,133 @@
+
+.indexbody{
+    background-color: #cdd4e0;
+}
+
+#titulo{
+    text-align: center;
+    background-color: #e6e9ef
+    ;
+    color: rgb(20, 12, 0);
+    font-family: "Times New Roman", Times, serif;
+    margin-bottom: 0;
+  
+  
+      
+  }
+  
+  .iconos{
+    background-color: #f0f0f4;
+    margin: 30px;
+    border: #3d8187 solid 1px;
+    border-radius: 10px;
+
+  }
+  .camion{
+    img{
+        width: 50px;
+    }
+  }
+  .camion1{
+   
+    
+    img{
+        width: 50px;
+    }
+    h3{
+        font-size: large;
+    }
+  }
+  .caja{
+    max-width: 70%;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr 1fr;
+    grid-template-areas: 
+    "grid1 grid1 grid2 grid3"
+    "grid1 grid1 grid4 grid4"
+    "grid5 grid6 grid4 grid4";
+
+}
+
+.grid{
+    
+    margin: 15px;
+    border-radius: 10px;
+
+}
+.grid1{
+    grid-area: grid1;
+}
+.grid2{
+    grid-area: grid2;
+
+}
+.grid3{
+    grid-area: grid3;
+}
+.grid4{
+    grid-area: grid4;
+}
+.grid5{
+    grid-area: grid5;
+
+}
+.grid6{
+    grid-area: grid6;
+}
+.grid-img{
+    max-width: 100%; max-height: 100%;
+}
+
+.imagenescarrusel{
+    max-height: 500px;
+    max-width: 700px;
+    border-radius: 10px;
+}
+.section-carrusel{
+    display: flex;
+    justify-content: center;
+    margin-top: 30px;
+    background-color: #0a2538;
+}
+.nuestros-productos{
+    border: solid 1px rgb(245, 251, 253);
+    color: #d3e5f1;
+    background-color: #0a2538;
+    
+   
+}
+.final-index{
+    background-color: #e7e7e7;
+    margin: 30px;
+    border-radius: 50px;
+    border:#225f48 solid 1px;
+}
+.targetitas{
+    border-top: #0a2538 solid 1px;
+    border-bottom:#0a2538 solid 1px ;
+ 
+}
+.section-cartas{
+    margin: 40px;
+   
+
+
+}
+.card-body{
+    background-color:#0a2538 ! important ;
+    border-radius: 1rem;
+    margin-top: -3rem;
+    color: #dfe2ea;
+   
+}
+.boton-cartas{
+    border: 0 ! important;
+    background-color: #cbe9fe ! important;
+    padding: 1rem ! important;
+    width: 100%;
+}
+.boton-cartas:hover{
+    background-color: #225f48 ! important;
+    color: #c5f3f8 ! important;
+}

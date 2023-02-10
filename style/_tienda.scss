@@ -1,0 +1,84 @@
+
+.titulo-tienda{
+    width: 100%;
+   display: flex;
+   justify-content: center;
+   h3{
+    color: rgb(211, 231, 231);
+    font-size: xx-large;
+   }
+   
+}
+.iteme {
+    width: 100%;
+    transition: all 500ms;
+    
+    
+    
+}
+.tienda1{
+    padding: 50px;
+    background-color: rgb(226, 230, 246);
+    border: solid 1px gray;
+    border-radius: 10px;
+}
+.tienda{
+    background-color: rgb(25, 42, 71);
+    padding: 70px;
+
+}
+.tienda2{
+    
+
+    >div{
+        position: relative;
+        >a{
+            display: flex;
+        justify-content: center;
+        }
+      
+       
+       
+
+        
+        
+        &:hover{
+            .iteme{
+                filter: invert(20%);
+               transform: scale(1.05);
+               border-radius: 10px;
+
+               
+            }
+
+            .texto-tienda{
+                top: 50%;
+                height: 52%;
+                display: inline-block;
+                color: aliceblue;
+                background-color: rgba(12, 45, 39, 0.574);
+    
+                }
+            }
+            
+
+        }
+    }
+
+
+.text{
+    transition: all 500ms;
+   
+}
+.texto-tienda{
+    position: absolute;
+    
+    top: 90%;
+    font-size: xx-large;
+    color: rgba(64, 105, 140, 0);
+    background-color: rgba(0, 0, 0, 0);
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+    height: 10%;
+  
+}

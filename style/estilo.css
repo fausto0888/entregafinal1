@@ -1,0 +1,336 @@
+@import url("https://fonts.googleapis.com/css2?family=IBM+Plex+Sans:ital,wght@0,100;1,100&family=Oswald:wght@500;700&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "IBM Plex Sans", sans-serif;
+}
+*::-moz-selection {
+  background-color: #8ac6b0;
+  color: bisque;
+}
+*::selection {
+  background-color: #8ac6b0;
+  color: bisque;
+}
+
+.navbarimg {
+  width: 50px;
+  border-radius: 10px;
+}
+
+.navbar-position {
+  position: fixed;
+}
+
+.div-navbar-objetos {
+  display: flex;
+  justify-content: center;
+}
+
+.indexbody {
+  background-color: #cdd4e0;
+}
+
+#titulo {
+  text-align: center;
+  background-color: #e6e9ef;
+  color: rgb(20, 12, 0);
+  font-family: "Times New Roman", Times, serif;
+  margin-bottom: 0;
+}
+
+.iconos {
+  background-color: #f0f0f4;
+  margin: 30px;
+  border: #3d8187 solid 1px;
+  border-radius: 10px;
+}
+
+.camion img {
+  width: 50px;
+}
+
+.camion1 img {
+  width: 50px;
+}
+.camion1 h3 {
+  font-size: large;
+}
+
+.caja {
+  max-width: 70%;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+  grid-template-rows: 1fr 1fr 1fr;
+  grid-template-areas: "grid1 grid1 grid2 grid3" "grid1 grid1 grid4 grid4" "grid5 grid6 grid4 grid4";
+}
+
+.grid {
+  margin: 15px;
+  border-radius: 10px;
+}
+
+.grid1 {
+  grid-area: grid1;
+}
+
+.grid2 {
+  grid-area: grid2;
+}
+
+.grid3 {
+  grid-area: grid3;
+}
+
+.grid4 {
+  grid-area: grid4;
+}
+
+.grid5 {
+  grid-area: grid5;
+}
+
+.grid6 {
+  grid-area: grid6;
+}
+
+.grid-img {
+  max-width: 100%;
+  max-height: 100%;
+}
+
+.imagenescarrusel {
+  max-height: 500px;
+  max-width: 700px;
+  border-radius: 10px;
+}
+
+.section-carrusel {
+  display: flex;
+  justify-content: center;
+  margin-top: 30px;
+  background-color: #0a2538;
+}
+
+.nuestros-productos {
+  border: solid 1px rgb(245, 251, 253);
+  color: #d3e5f1;
+  background-color: #0a2538;
+}
+
+.final-index {
+  background-color: #e7e7e7;
+  margin: 30px;
+  border-radius: 50px;
+  border: #225f48 solid 1px;
+}
+
+.targetitas {
+  border-top: #0a2538 solid 1px;
+  border-bottom: #0a2538 solid 1px;
+}
+
+.section-cartas {
+  margin: 40px;
+}
+
+.card-body {
+  background-color: #0a2538 !important;
+  border-radius: 1rem;
+  margin-top: -3rem;
+  color: #dfe2ea;
+}
+
+.boton-cartas {
+  border: 0 !important;
+  background-color: #cbe9fe !important;
+  padding: 1rem !important;
+  width: 100%;
+}
+
+.boton-cartas:hover {
+  background-color: #225f48 !important;
+  color: #c5f3f8 !important;
+}
+
+.boton-nosotros {
+  background-color: white;
+  border: solid 1px rgb(255, 171, 140) !important;
+}
+.boton-nosotros:hover {
+  background-color: rgb(255, 171, 140) !important;
+  color: aliceblue;
+}
+
+.nosotros-section {
+  background-color: #3a6173;
+  padding: 40px;
+}
+.nosotros-section div {
+  background-color: #f0f0f4;
+  border-radius: 10px;
+  border: solid 1px rgba(0, 213, 255, 0.709);
+}
+
+.titulo-tienda {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+}
+.titulo-tienda h3 {
+  color: rgb(211, 231, 231);
+  font-size: xx-large;
+}
+
+.iteme {
+  width: 100%;
+  transition: all 500ms;
+}
+
+.tienda1 {
+  padding: 50px;
+  background-color: rgb(226, 230, 246);
+  border: solid 1px gray;
+  border-radius: 10px;
+}
+
+.tienda {
+  background-color: rgb(25, 42, 71);
+  padding: 70px;
+}
+
+.tienda2 > div {
+  position: relative;
+}
+.tienda2 > div > a {
+  display: flex;
+  justify-content: center;
+}
+.tienda2 > div:hover .iteme {
+  filter: invert(20%);
+  transform: scale(1.05);
+  border-radius: 10px;
+}
+.tienda2 > div:hover .texto-tienda {
+  top: 50%;
+  height: 52%;
+  display: inline-block;
+  color: aliceblue;
+  background-color: rgba(12, 45, 39, 0.574);
+}
+
+.text {
+  transition: all 500ms;
+}
+
+.texto-tienda {
+  position: absolute;
+  top: 90%;
+  font-size: xx-large;
+  color: rgba(64, 105, 140, 0);
+  background-color: rgba(0, 0, 0, 0);
+  border-top-left-radius: 20px;
+  border-top-right-radius: 20px;
+  height: 10%;
+}
+
+.bodynuevo {
+  background-color: rgb(144, 158, 179);
+}
+
+.palta {
+  color: rgb(41, 47, 47);
+  background-color: bisque;
+}
+.palta p {
+  color: rgb(11, 62, 56);
+}
+
+.new {
+  background-color: azure;
+  margin: 35px;
+  border-radius: 10px;
+  border: #0a2538 solid 1px;
+}
+
+.nuevos-prductos {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 20px;
+}
+.nuevos-prductos h1 {
+  color: #d3e5f1;
+  font-size: xx-large;
+  width: 100%;
+  background-color: #0a2538;
+  color: #d3e5f1;
+  display: flex;
+  justify-content: center;
+  margin-top: 60px;
+  border: solid 1px #d3e5f1;
+}
+
+.nuevos1 {
+  transition: all 1s;
+  padding: 20px;
+}
+
+.nuevos1:hover {
+  transform: scale(1.05);
+}
+.nuevos1:hover .palta {
+  box-shadow: rgb(38, 57, 77) 0px 20px 30px -10px;
+}
+
+@media (max-width: 750px) {
+  .caja {
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr 1fr 1fr;
+    grid-template-areas: "grid1 grid1 grid2" "grid1 grid1 grid3" "grid5 grid4 grid4" "grid6 grid4 grid4";
+  }
+  .camion h3 {
+    font-size: small;
+  }
+}
+@media (max-width: 480px) {
+  .caja {
+    grid-template-columns: 1fr;
+    grid-template-rows: 1fr 1fr 1fr 1fr 1fr 1fr;
+    grid-template-areas: "grid1" "grid2" "grid5" "grid6" "grid3" "grid4";
+  }
+}
+.detalles {
+  padding: 30px;
+  background-color: rgb(152, 163, 175);
+}
+
+.boton-carrusel {
+  color: black;
+}
+
+.contenedor-productos {
+  background-color: rgb(254, 254, 254);
+  border-radius: 10px;
+  border: 3px solid gray;
+}
+
+.conteiner-productos {
+  max-height: 400px;
+  display: flex;
+  justify-content: center;
+}
+
+.targeta-productos {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  margin-top: 20px;
+  padding: 70px;
+}
+.targeta-productos h1 {
+  font-family: "Times New Roman", Times, serif;
+}
+.targeta-productos button {
+  transform: scale(1.5);
+}/*# sourceMappingURL=estilo.css.map */

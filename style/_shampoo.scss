@@ -1,0 +1,40 @@
+.detalles{
+    padding: 30px;
+    background-color: rgb(152, 163, 175);
+}
+
+.boton-carrusel{
+    color: black;
+}
+.contenedor-productos{
+    background-color: rgb(254, 254, 254);
+    border-radius: 10px;
+    border: 3px solid gray;
+}
+.conteiner-productos{
+    max-height: 400px;
+    display: flex;
+    justify-content: center;
+   
+    
+}
+.targeta-productos{
+    
+    
+    display: flex;
+     flex-direction: column;
+     justify-content: center;
+     margin-top: 20px;
+     padding: 70px;
+     h1{
+        font-family: 'Times New Roman', Times, serif;
+     }
+     button{
+        transform: scale(1.5);
+     }
+    
+
+}
+.contenedor-productos{
+  
+}
